@@ -9,27 +9,31 @@
 </head>
 <body>
 <jsp:include page="header.jsp"/>
-<hr/>
+
 
 <h3>New Product</h3>
-	
+	</br>
 	<form action="adminAddProduct" method="post">
 		<div>
 			<label>Product Id</label>
 			<input type="number" name="id" required/>
 		</div>	
+		</br>
 		<div>
 			<label>Product Name</label>
 			<input type="text" name="pname"  required />
 		</div>	
+		</br>
 		<div>
 			<label>Product Description</label>
 			<input type="text" name="pdesc"  required />
 		</div>	
+		</br>
 		<div>
 			<label>Product Cost</label>
 			<input type="decimal" name="pcost" required />
 		</div>		
+		</br>
 		<button>ADD PRODUCT</button>		
 	</form>
 	
@@ -37,8 +41,8 @@
 	<c:if test="${errMsg != null }">
 		<p><strong>${errMsg }</strong></p>
 	</c:if>
-
-<hr/>	
+</br>
+	
 	<jsp:include page="footer.jsp"/>
 </body>
 </html>

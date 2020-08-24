@@ -9,7 +9,8 @@
 </head>
 <body>
 <jsp:include page="header.jsp"/>
-<hr/>
+<h3><u>Avaliable Products</u></h3>
+</br>
 <nav><a href="admin-newproduct.jsp">ADD NEW PRODUCT</a></nav>
 </br>
 <c:choose>
@@ -17,7 +18,7 @@
 			<p>No Products Available</p>
 		</c:when>
 		<c:otherwise>
-			<table border="1" cellspacing="5px" cellpadding="5px">
+			<table border="1" cellspacing="2px" cellpadding="8px">
 				<tr>
 					<th>Product#</th>
 					<th>Name</th>
@@ -46,7 +47,7 @@
 		<p><strong>${msg }</strong></p>
 	</c:if>
 
-<hr/>	
+
 	<jsp:include page="footer.jsp"/>
 </body>
 </html>

@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.wellsfargo.fsd.cpk.entity.Product;
 import com.wellsfargo.fsd.cpk.exception.ProductException;
-import com.wellsfargo.fsd.cpk.model.Product;
 
 public class ProductDaoJdbcImpl implements ProductDao {
 

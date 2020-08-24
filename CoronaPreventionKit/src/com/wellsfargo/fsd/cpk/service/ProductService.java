@@ -2,8 +2,8 @@ package com.wellsfargo.fsd.cpk.service;
 
 import java.util.List;
 
+import com.wellsfargo.fsd.cpk.entity.Product;
 import com.wellsfargo.fsd.cpk.exception.ProductException;
-import com.wellsfargo.fsd.cpk.model.Product;
 
 public interface ProductService {
 

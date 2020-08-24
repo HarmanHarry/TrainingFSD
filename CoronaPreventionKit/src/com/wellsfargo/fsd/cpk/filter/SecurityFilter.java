@@ -47,7 +47,6 @@ public class SecurityFilter implements Filter {
 		        
 		        //Security Filter for admin pages
 		        if(httpRequest.getRequestURI().contains("admin")) {
-		        	System.out.println("Filter");
 		        	if(session==null)	        			        	 
 		             dispatcher.forward(request, response);	        	
 		        	else {

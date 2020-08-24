@@ -1,13 +1,15 @@
 
 <header>
-	<h1>Corona Prevention Kit</h1>
+	<h1 align="center">Corona Prevention Kit Portal</h1>
 		<%String sname=(String)session.getAttribute("user"); %>
 		<%if(sname!=null) {%>
 		<hr/>
-		<nav>
-			<strong><label>Welcome, <%=sname %></label></strong> | 
-			<strong><a href="index.jsp">Logout</a></strong>
+		<div>
+			<strong><span >Welcome, <%=sname %></span></strong> | 
+			<strong><span ><a href="index.jsp">Logout</a></span></strong>
+			</div>
 			<%} %>
 		
 	
 </header>
+<hr/>

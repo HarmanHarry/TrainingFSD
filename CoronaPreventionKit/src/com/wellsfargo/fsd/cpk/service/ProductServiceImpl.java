@@ -6,7 +6,7 @@ import java.util.List;
 import com.wellsfargo.fsd.cpk.exception.ProductException;
 import com.wellsfargo.fsd.cpk.dao.ProductDao;
 import com.wellsfargo.fsd.cpk.dao.ProductDaoJdbcImpl;
-import com.wellsfargo.fsd.cpk.model.Product;
+import com.wellsfargo.fsd.cpk.entity.Product;
 
 public class ProductServiceImpl implements ProductService {
 	
