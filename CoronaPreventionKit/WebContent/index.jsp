@@ -35,7 +35,7 @@
 <hr/>
 <div>
 </br>
-	<a href="newuser.jsp"><button>Create Corona Kit</button></a>
+	<p>If You Are New User, Please click here to order Corona Prevention Kit Products&nbsp;&nbsp;  <a href="newuser.jsp"><button>Create Corona Kit</button></a></p>
 	
 </div>
 </br>
